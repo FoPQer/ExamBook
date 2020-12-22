@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Вход</title>
+    <link rel="stylesheet" href="KursStyle.css">
+</head>
+<body>
+<div id="head">
+    <p id="Hello"><b>Добро пожаловать на страницу электронной зачётной книжки</b></p>
+</div>
+<div id="Enter">
+    <script src="EnterJS.js"></script>
+    <form name="MForm" action="Main.html">
+        <label id="EnterS">
+            <b>Введите данные о владельце таблицы</b><br>
+            Фамилия: <input class="field" id="lastname" type="text"><br>
+            Имя: <input class="field" id="firstname" type="text"><br>
+            Отчество: <input class="field" id="fatherName" type="text"><br>
+            Группа: <input class="field" id="group" type="text"><br>
+            <input id="sub" type="submit" onclick="enter();" value="Отправить">
+        </label>
+    </form>
+</div>
+</body>
+</html>

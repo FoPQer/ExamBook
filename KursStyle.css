@@ -1,0 +1,61 @@
+table{
+    height: 270px;
+    width: 1136px;
+    font-family: "Times New Roman", serif;
+    font-size: 16pt;
+}
+table#name{
+    height: auto;
+    width: auto;
+    max-width: 500px;
+    background-color: lightgoldenrodyellow;
+}
+body{
+    font-family: "Times New Roman", serif;
+    background-color: azure;
+}
+i{
+    font-family: "Times New Roman", serif;
+    font-size: 22pt;
+}
+b{
+    font-family: "Times New Roman", serif;
+    font-size: 26pt;
+}
+td, input{
+    font-size: 16pt;
+    font-family: "Times New Roman", serif;
+}
+input{
+    background-color: azure;
+    border: 0;
+}
+tr.even, input.even{
+    background-color: whitesmoke;
+}
+tr.head{
+    background-color: lavender;
+}
+div#Nav{
+    width: 230px;
+    position: fixed;
+    right: 20px;
+    top: 20px;
+}
+a{
+    font-family: "Monotype Corsiva", serif;
+    font-size: 18pt;
+    color: lightseagreen;
+}
+p#Hello{
+    font-size: 25pt;
+    font-family: "Times New Roman", serif;
+    text-align: center;
+}
+label#EnterS, input#sub{
+    font-size: 16pt;
+    font-family: cursive;
+}
+input.field{
+    border: 8px;
+}
